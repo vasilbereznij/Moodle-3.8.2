@@ -1,0 +1,271 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'format_grid', language 'uk', version '3.8'.
+ *
+ * @package     format_grid
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['addsection'] = 'Додати секцію';
+$string['alttext'] = 'Альтернативний текст зображення';
+$string['alttext_help'] = 'Цей текст буде встановлено як атрибут альтернативного зображення';
+$string['bottom'] = 'Знизу';
+$string['cannotconvertuploadedimagetodisplayedimage'] = 'Неможливо перетворити завантажене зображення на відображене - {$a}. Будь ласка, повідомте розробнику деталі помилки та інформацію, що міститься у файлі php.log.';
+$string['cannotfinduploadedimage'] = 'Не вдається знайти завантажене оригінальне зображення. Будь ласка, повідомте розробнику деталі помилки та інформацію, що міститься у файлі php.log. Оновіть сторінку та завантажте нову копію зображення.';
+$string['cannotgetimagelock'] = 'Не вдається отримати блокування зображення. Будь ласка, повідомте деталі помилки розробнику.';
+$string['cannotgetsummarylock'] = 'Не вдається отримати підсумкове блокування.  Будь ласка, повідомте деталі помилки розробнику.';
+$string['centre'] = 'По центру';
+$string['closeshadebox'] = 'Закрийте тіньову коробку';
+$string['colourrule'] = 'Введіть дійсний колір RGB, шість шістнадцяткових цифр або «-» за замовчуванням.';
+$string['crop'] = 'Обрізати';
+$string['currentsection'] = 'Ця секція';
+$string['custommousepointers'] = 'Використовуйте спеціальні вказівники миші.';
+$string['custommousepointers_desc'] = 'У Cітці використовуйте спеціальні вказівники миші.';
+$string['default'] = 'За замовчуванням - {$a}';
+$string['defaultbordercolour'] = 'Колір рамки контейнера зображення за замовчуванням';
+$string['defaultbordercolour_desc'] = 'Колір рамки контейнера зображення за замовчуванням.';
+$string['defaultborderradius'] = 'Радіус границі за замовчуванням';
+$string['defaultborderradius_desc'] = 'Радіус границі за замовчуванням ввімкнено / вимкнено.';
+$string['defaultborderwidth'] = 'Ширина границі за замовчуванням';
+$string['defaultborderwidth_desc'] = 'Ширина границі за замовчуванням.';
+$string['defaultcurrentselectedimagecontainercolour'] = 'Поточний вибраний колір контейнера зображення за замовчуванням';
+$string['defaultcurrentselectedimagecontainercolour_desc'] = 'Поточний вибраний колір контейнера зображення за замовчуванням.';
+$string['defaultcurrentselectedimagecontainertextcolour'] = 'За замовчуванням поточний вибраний колір тексту контейнера зображення';
+$string['defaultcurrentselectedimagecontainertextcolour_desc'] = 'Поточний вибраний колір тексту контейнера зображення за замовчуванням.';
+$string['defaultcurrentselectedsectioncolour'] = 'Поточний вибраний колір секції за замовчуванням';
+$string['defaultcurrentselectedsectioncolour_desc'] = 'Колір поточного вибраного розділу за замовчуванням.';
+$string['defaultdisplayedimagefiletype'] = 'Тип зображення, що відображається';
+$string['defaultdisplayedimagefiletype_desc'] = 'Встановлення типу зображення, що відображається.';
+$string['defaultfitsectioncontainertowindow'] = 'Підгонка контейнера секції до вікна за замовчуванням';
+$string['defaultfitsectioncontainertowindow_desc'] = 'Значення за замовчуванням для "Підігнати контейнер секції до вікна".';
+$string['defaultgreyouthidden'] = 'Сірий колір недоступний';
+$string['defaultgreyouthidden_desc'] = 'Скидає властивість «У сітці показувати недоступні зображення розділів сірим кольором і без зв’язків». щоб дотримуватися значення сайту за замовчуванням.';
+$string['defaulthidesectiontitle'] = 'Сховати параметр заголовка секції';
+$string['defaulthidesectiontitle_desc'] = 'Сховати заголовок секції.';
+$string['defaultimagecontaineralignment'] = 'Вирівнювання контейнерів зображень за замовчуванням';
+$string['defaultimagecontaineralignment_desc'] = 'Вирівнювання контейнерів зображень за замовчуванням.';
+$string['defaultimagecontainerbackgroundcolour'] = 'Колір фону контейнера зображення за замовчуванням';
+$string['defaultimagecontainerbackgroundcolour_desc'] = 'Колір фону контейнера зображення за замовчуванням.';
+$string['defaultimagecontainerratio'] = 'Співвідношення контейнера зображення по відношенню до ширини за замовчуванням';
+$string['defaultimagecontainerratio_desc'] = 'Стандартне співвідношення контейнера зображення щодо ширини.';
+$string['defaultimagecontainerwidth'] = 'Ширина контейнера зображення за замовчуванням';
+$string['defaultimagecontainerwidth_desc'] = 'Ширина контейнера зображення за замовчуванням.';
+$string['defaultimageresizemethod'] = 'Метод зміни розміру зображення за замовчуванням';
+$string['defaultimageresizemethod_desc'] = 'Стандартний метод зміни розміру зображення відповідно до контейнера.';
+$string['defaultnewactivity'] = 'За замовчуванням показувати зображення повідомлення про нову активність';
+$string['defaultnewactivity_desc'] = 'Показувати зображення повідомлення про нову активність при додаванні нової активності або ресурсу до розділу за замовчуванням.';
+$string['defaultsectiontitlealignment'] = 'Вирівнювання заголовка секції';
+$string['defaultsectiontitlealignment_desc'] = 'Встановити вирівнювання заголовка секції: «Ліворуч», «По центру» або «Праворуч».';
+$string['defaultsectiontitleboxheight'] = 'Висота поля заголовка секції';
+$string['defaultsectiontitleboxheight_desc'] = 'Висота поля заголовка секції в пікселях або «0» для браузера або «-» за замовчуванням. Коли позиція поля «Всередині».';
+$string['defaultsectiontitleboxinsideposition'] = 'Положення заголовка секції, коли параметр "Всередині"';
+$string['defaultsectiontitleboxinsideposition_desc'] = 'Встановити позицію заголовка розділу, коли обрано параметр «Всередині» для вікна сітки: «Згори», «Посередині» або «Знизу».';
+$string['defaultsectiontitleboxopacity'] = 'Непрозорість поля заголовка розділу';
+$string['defaultsectiontitleboxopacity_desc'] = 'Прозорість поля заголовка розділу від 0 до 1 із кроком 0,1. Коли позиція параметра «Всередині».';
+$string['defaultsectiontitleboxposition'] = 'Параметр розташування вікна заголовка секції';
+$string['defaultsectiontitleboxposition_desc'] = 'Встановити позицію заголовка секції у вікні сітки: \'Всередині\' або \'Ззовні\'.';
+$string['defaultsectiontitlefontsize'] = 'Розмір шрифту заголовка секції';
+$string['defaultsectiontitlefontsize_desc'] = 'Розмір шрифту заголовка секції між 12 та 24 пікселями, де 0 позначає «не встановлювати, а успадковувати від теми чи будь-якого іншого застосуючого CSS».';
+$string['defaultsectiontitlegridlengthmaxoption'] = 'Параметр довжини сітки заголовків секції';
+$string['defaultsectiontitlegridlengthmaxoption_desc'] = 'Установіть максимальну довжину заголовка секції за замовчуванням у полі сітки. Введіть \'0\', щоб не скорочувати.';
+$string['defaultsectiontitleinsidetitlebackgroundcolour'] = 'Колір фону заголовка секції, коли опція «Всередині».';
+$string['defaultsectiontitleinsidetitlebackgroundcolour_desc'] = 'Установіть колір фону заголовка, коли він знаходиться «всередині» сітки.';
+$string['defaultsectiontitleinsidetitletextcolour'] = 'Колір тексту заголовка секції при виборі опції «Всередині».';
+$string['defaultsectiontitleinsidetitletextcolour_desc'] = 'Встановіть колір тексту заголовка, коли він знаходиться «всередині» поля сітки.';
+$string['defaultsectiontitlesummarybackgroundcolour'] = 'Установіть колір фону назви заголовка секції при наведенні курсора';
+$string['defaultsectiontitlesummarybackgroundcolour_desc'] = 'Встановіть колір фону назви заголовка секції під час наведення курсора на заголовок секції в полі сітки.';
+$string['defaultsectiontitlesummarybackgroundopacity'] = 'Встановіть непрозорість назви заголовка секції при наведенні курсора';
+$string['defaultsectiontitlesummarybackgroundopacity_desc'] = 'Встановіть непрозорість фону назви заголовка секції від 0 до 1 із кроком 0,1 під час наведення курсора на заголовок секції в полі сліду.';
+$string['defaultsectiontitlesummarymaxlength'] = 'Установіть максимальну довжину назви заголовка секції при наведенні курсора';
+$string['defaultsectiontitlesummarymaxlength_desc'] = 'Установіть максимальну довжину назви заголовка секції при наведенні курсора на рамку сітки. Введіть «0», щоб не скорочувати, або «-» за замовчуванням.';
+$string['defaultsectiontitlesummarytextcolour'] = 'Установіть колір назви тексту заголовка секції при наведенні курсора';
+$string['defaultsectiontitlesummarytextcolour_desc'] = 'Установіть колір назви тексту заголовка секції при наведенні курсора на заголовок розділу в полі сітки.';
+$string['defaultsetshowsectiontitlesummaryposition'] = 'Установіть назву заголовка секції під час наведення курсора';
+$string['defaultsetshowsectiontitlesummaryposition_desc'] = 'Встановіть позицію назви заголовка секції під час наведення курсора на поле сітки на одне з: «зверху», «знизу», «ліворуч» або «праворуч».';
+$string['defaultshowsectiontitlesummary'] = 'Установіть назву заголовка секції під час наведення курсора';
+$string['defaultshowsectiontitlesummary_desc'] = 'Показувати назву заголовка секції при наведенні курсора на поле сітки.';
+$string['deleteimage'] = 'Видалити зображення';
+$string['deleteimage_help'] = 'Видалити зображення для розділу, що редагується.  Якщо ви завантажили зображення, то воно не замінить видалене зображення.';
+$string['deletesection'] = 'Видалити секцію';
+$string['display_summary'] = 'Вийти з сітки';
+$string['display_summary_alt'] = 'Перемістіть цю секцію із сітки';
+$string['editimage'] = 'Змінити зображення';
+$string['editimage_alt'] = 'Встановити або змінити зображення';
+$string['editsection'] = 'Редагувати секцію';
+$string['editsectionname'] = 'Редагувати назву секції';
+$string['formatnotsupported'] = 'Формат не підтримується на цьому сервері, виправте конфігурацію системи, щоб було встановлено розширення GD PHP - {$a}.';
+$string['functionfailed'] = 'На зображенні стався збій у роботі функції - {$a}.';
+$string['gfreset'] = 'Можливості перезавантаження мережі';
+$string['gfreset_help'] = 'Скидання до налаштувань мережі за замовчуванням.';
+$string['greyouthidden'] = 'Сірий колір недоступний';
+$string['greyouthidden_help'] = 'Скидає властивість «У сітці показувати недоступні зображення розділів сірим кольором і без зв’язків». щоб дотримуватися значення сайту за замовчуванням.';
+$string['grid:changeimagecontaineralignment'] = 'Змініть або скиньте вирівнювання контейнера зображень';
+$string['grid:changeimagecontainernavigation'] = 'Змініть або скиньте навігацію контейнера зображень';
+$string['grid:changeimagecontainersize'] = 'Змініть або скиньте розмір контейнера зображення';
+$string['grid:changeimagecontainerstyle'] = 'Змініть або скиньте стиль контейнера зображення';
+$string['grid:changeimageresizemethod'] = 'Змініть або скиньте метод зміни розміру зображення';
+$string['grid:changesectiontitleoptions'] = 'Змініть або скиньте параметри назви розділу';
+$string['gridimagecontainer'] = 'Зображення сітки';
+$string['hidden_topic'] = 'Цю секцію було приховано';
+$string['hide_summary'] = 'Перемістити секцію у сітку';
+$string['hide_summary_alt'] = 'Перемістіть цю секцію у сітку';
+$string['hidefromothers'] = 'Приховати секцію';
+$string['hidesectiontitle'] = 'Сховати параметр заголовка секції';
+$string['hidesectiontitle_help'] = 'Приховати назву секції.';
+$string['imagecannotbeused'] = 'Зображення не може бути використане, воно має бути у форматі PNG, JPG або GIF, а також має бути встановлено розширення GD PHP.';
+$string['imagefile'] = 'Завантажити зображення';
+$string['imagefile_help'] = 'Завантажте зображення у форматі PNG, JPG або GIF.  WEBP потребує підтримки ядра Moodle.';
+$string['invalidiconrecordid'] = 'Не вдалося створити контейнер зображень. База даних формату сітки не готова. Адміністратор повинен відвідати розділ сповіщень.';
+$string['invalidsummaryrecordid'] = 'Не вдалося встановити підсумковий статус. База даних формату сітки не готова. Адміністратор повинен відвідати розділ сповіщень.';
+$string['left'] = 'Ліворуч';
+$string['markedthissection'] = 'Цей розділ виділено як поточний';
+$string['markthissection'] = 'Виділити цей розділ як поточний';
+$string['mimetypenotsupported'] = 'Тип Mime не підтримується як формат зображення у форматі сітки - {$a}.';
+$string['newsectionname'] = 'Нове ім\'я для секції {$a}';
+$string['nextsection'] = 'Наступна секція';
+$string['noimageinformation'] = 'Інформація про зображення порожня — {$a}.';
+$string['numbersections'] = 'Кількість секцій';
+$string['off'] = 'Вимкнено';
+$string['on'] = 'Увімкнено';
+$string['opacityrule'] = 'Введіть дійсну непрозорість від 0 до 1 із кроком 0,1.';
+$string['original'] = 'Оригіналx';
+$string['originalheightempty'] = 'Оригінальна висота порожня - {$a}.';
+$string['originalwidthempty'] = 'Оригінальна ширина порожня - {$a}.';
+$string['page-course-view-grid'] = 'Будь-яка головна сторінка курсу у форматі сітки';
+$string['page-course-view-grid-x'] = 'Будь-яка сторінка курсу у форматі сітки';
+$string['pluginname'] = 'Формат Сітки';
+$string['previoussection'] = 'Попередня секція';
+$string['privacy:nop'] = 'Формат Сітки зберігає багато параметрів, які стосуються його конфігурації. Жодне з налаштувань не стосується конкретного користувача. Ви несете відповідальність за те, щоб жодні дані користувача не вводилися в жодне з довільних текстових полів. Встановлення параметра призведе до того, що ця дія буде зареєстрована в основній системі журналювання Moodle щодо користувача, який його змінив. Це виходить за межі контролю форматів, будь ласка, дивіться базову систему журналювання щодо відповідності конфіденційності. Під час завантаження зображень слід уникати завантаження зображень із вбудованими даними про місцезнаходження (EXIF GPS) або іншими подібними особистими даними. Із зображень можна було б витягти будь-яке місцезнаходження/особисті дані. Уважно вивчіть код, щоб переконатися, що він відповідає вашому тлумаченню законів про конфіденційність. Я не юрист, і мій аналіз базується на моїй інтерпретації. Якщо у вас є сумніви, негайно видаліть формат.';
+$string['reporterror'] = 'Будь ласка, повідомте розробнику деталі помилки та інформацію, що міститься у файлі php.log';
+$string['resetallfitpopup'] = 'Підігнати розміри секції до розмірів вікна';
+$string['resetallfitpopup_help'] = 'Скидає параметр «Припасувати спливаюче вікно розділу до вікна» відповідно до стандартного значення за замовчуванням.';
+$string['resetallgreyouthidden'] = 'Сірий колір недоступний';
+$string['resetallgreyouthidden_help'] = 'Скидає властивість «У сітці показувати недоступні зображення розділів сірим кольором і без зв’язків». щоб дотримуватися значення сайту за замовчуванням.';
+$string['resetallgrp'] = 'Скинути все:';
+$string['resetallimagecontaineralignment'] = 'Вирівнювання контейнера зображення';
+$string['resetallimagecontaineralignment_help'] = 'Скидає вирівнювання контейнера зображення до значень за замовчуванням.';
+$string['resetallimagecontainernavigation'] = 'Навігація по контейнеру зображень';
+$string['resetallimagecontainernavigation_help'] = 'Скидає навігацію контейнера зображень до значення за замовчуванням.';
+$string['resetallimagecontainersize'] = 'Розміри контейнера зображення';
+$string['resetallimagecontainersize_help'] = 'Скидає розміри контейнера зображень до значень за замовчуванням.';
+$string['resetallimagecontainerstyle'] = 'Стиль контейнера зображення';
+$string['resetallimagecontainerstyle_help'] = 'Скидає стилі контейнера зображень відповідно до стандартного значення сайту.';
+$string['resetallimageresizemethod'] = 'Методи зміни розміру зображення';
+$string['resetallimageresizemethod_help'] = 'Скидає метод зміни розмірів зображення до значень за замовчуванням.';
+$string['resetallnewactivity'] = 'Нові діяльності';
+$string['resetallnewactivity_help'] = 'Скидає нові зображення сповіщень про дії відповідно до стандартних значень сайту.';
+$string['resetallsectiontitleoptions'] = 'Параметри назви секції';
+$string['resetallsectiontitleoptions_help'] = 'Скидає параметри назви секції до значень за замовчуванням.';
+$string['resetfitpopup'] = 'Підігнати розміри секції до розмірів вікна';
+$string['resetfitpopup_help'] = 'Скидає параметр «Припасувати спливаюче вікно розділу до вікна» відповідно до стандартного значення за замовчуванням.';
+$string['resetgreyouthidden'] = 'Сірий колір недоступний';
+$string['resetgreyouthidden_help'] = 'Скидає властивість «У сітці показувати недоступні зображення розділів сірим кольором і без зв’язків». щоб дотримуватися значення сайту за замовчуванням.';
+$string['resetgrp'] = 'Скинути:';
+$string['resetimagecontaineralignment'] = 'Вирівнювання контейнера зображення';
+$string['resetimagecontaineralignment_help'] = 'Скидає вирівнювання контейнера зображення до значень за замовчуванням.';
+$string['resetimagecontainernavigation'] = 'Навігація по контейнеру зображень';
+$string['resetimagecontainernavigation_help'] = 'Скидає навігацію контейнера зображень до значення за замовчуванням.';
+$string['resetimagecontainersize'] = 'Розміри контейнера зображення';
+$string['resetimagecontainersize_help'] = 'Скидає розміри контейнера зображень до значень за замовчуванням.';
+$string['resetimagecontainerstyle'] = 'Стиль контейнера зображення';
+$string['resetimagecontainerstyle_help'] = 'Скидає стиль контейнера зображення до значень за замовчуванням.';
+$string['resetimageresizemethod'] = 'Методи зміни розміру зображення';
+$string['resetimageresizemethod_help'] = 'Скидає метод зміни розмірів зображення до значень за замовчуванням.';
+$string['resetnewactivity'] = 'Нова діяльність';
+$string['resetnewactivity_help'] = 'Скидає нові повідомлень продіяльності до значень за замовчуванням.';
+$string['resetsectiontitleoptions'] = 'Параметри назви секції';
+$string['resetsectiontitleoptions_help'] = 'Скидає параметри назви секції до значень за замовчуванням.';
+$string['right'] = 'Праворуч';
+$string['scale'] = 'Масштаб';
+$string['section0name'] = 'Загальний';
+$string['sectionname'] = 'Секція';
+$string['sectiontitlealignment'] = 'Вирівнювання заголовка секції';
+$string['sectiontitlealignment_help'] = 'Встановити вирівнювання заголовка секції: «Ліворуч», «По центру» або «Праворуч».';
+$string['sectiontitleboxheight'] = 'Висота поля заголовка секції';
+$string['sectiontitleboxheight_help'] = 'Висота поля заголовка секції в пікселях або «0» для браузера або «-» за замовчуванням. Коли позиція поля «Всередині».';
+$string['sectiontitleboxinsideposition'] = 'Положення заголовка секції, коли параметр "Всередині"';
+$string['sectiontitleboxinsideposition_help'] = 'Встановити позицію заголовка розділу, коли обрано параметр «Всередині» для вікна сітки: «Згори», «Посередині» або «Знизу».';
+$string['sectiontitleboxinsidepositionbottom'] = 'Знизу';
+$string['sectiontitleboxinsidepositionmiddle'] = 'Посередині';
+$string['sectiontitleboxinsidepositiontop'] = 'Згори';
+$string['sectiontitleboxopacity'] = 'Непрозорість поля заголовка секції';
+$string['sectiontitleboxopacity_help'] = 'Прозорість поля заголовка розділу від 0 до 1 із кроком 0,1. Коли позиція параметра «Всередині».';
+$string['sectiontitleboxposition'] = 'Параметр розташування вікна заголовка секції';
+$string['sectiontitleboxposition_help'] = 'Встановити позицію заголовка секції у вікні сітки: \'Всередині\' або \'Ззовні\'.';
+$string['sectiontitleboxpositioninside'] = 'Всередині';
+$string['sectiontitleboxpositionoutside'] = 'Ззовні';
+$string['sectiontitlefontsize'] = 'Розмір шрифту заголовка секції';
+$string['sectiontitlefontsize_help'] = 'Розмір шрифту заголовка секції між 12 та 24 пікселями, де 0 позначає «не встановлювати, а успадковувати від теми чи будь-якого іншого застосуючого CSS».';
+$string['sectiontitlefontsizerule'] = 'Будь ласка, введіть дійсний розмір шрифту заголовка розділу від 12 до 24 (пікселів) або 0 для \'не встановлювати\'.';
+$string['sectiontitlegridlengthmaxoption'] = 'Параметр довжини сітки заголовка секції';
+$string['sectiontitlegridlengthmaxoption_help'] = 'Встановіть максимальну довжину заголовка секції в полі сітки. Введіть \'0\' для відсутності скорочення або \'-\' для замовчування.';
+$string['sectiontitlegridlengthmaxoptionrule'] = 'Максимальна довжина заголовка секції в полі сітки не повинна дорівнювати нулю. Введіть \'0\' для відсутності скорочення або \'-\' для замовчування.';
+$string['sectiontitleinsidetitlebackgroundcolour'] = 'Колір фону заголовка секції, коли опція «Всередині».';
+$string['sectiontitleinsidetitlebackgroundcolour_help'] = 'Установіть колір фону заголовка, коли він знаходиться «всередині» сітки.';
+$string['sectiontitleinsidetitletextcolour'] = 'Колір тексту заголовка секції при виборі опції «Всередині».';
+$string['sectiontitleinsidetitletextcolour_help'] = 'Встановіть колір тексту заголовка, коли він знаходиться «всередині» поля сітки.';
+$string['sectiontitlesummarybackgroundcolour'] = 'Установіть колір фону назви заголовка секції при наведенні курсора';
+$string['sectiontitlesummarybackgroundcolour_help'] = 'Встановіть колір фону назви заголовка секції під час наведення курсора на заголовок секції в полі сітки.';
+$string['sectiontitlesummarybackgroundopacity'] = 'Встановіть непрозорість назви заголовка секції при наведенні курсора';
+$string['sectiontitlesummarybackgroundopacity_help'] = 'Встановіть непрозорість фону назви заголовка секції від 0 до 1 із кроком 0,1 під час наведення курсора на заголовок секції в полі сліду.';
+$string['sectiontitlesummarymaxlength'] = 'Установіть максимальну довжину назви заголовка секції при наведенні курсора';
+$string['sectiontitlesummarymaxlength_help'] = 'Установіть максимальну довжину назви заголовка секції при наведенні курсора на рамку сітки. Введіть «0», щоб не скорочувати, або «-» за замовчуванням.';
+$string['sectiontitlesummarytextcolour'] = 'Установіть колір назви тексту заголовка секції при наведенні курсора';
+$string['sectiontitlesummarytextcolour_help'] = 'Установіть колір назви тексту заголовка секції при наведенні курсора на заголовок розділу в полі сітки.';
+$string['setbordercolour'] = 'Встановити колір рамки';
+$string['setbordercolour_help'] = 'Задати колір рамки в шістнадцятковому форматі RGB.';
+$string['setborderradius'] = 'Увімкнути / вимкнути радіус границі';
+$string['setborderradius_help'] = 'Увімкніть або вимкніть радіус границі.';
+$string['setborderwidth'] = 'Встановіть ширину границі';
+$string['setborderwidth_help'] = 'Встановіть ширину границі в діапазоні від 1 до 10.';
+$string['setcurrentselectedimagecontainercolour'] = 'Встановити поточний вибраний колір контейнера зображення';
+$string['setcurrentselectedimagecontainercolour_help'] = 'Встановити поточний вибраний колір контейнера зображення у шістнадцятковому форматі RGB.';
+$string['setcurrentselectedimagecontainertextcolour'] = 'Встановити колір тексту поточного вибраного контейнера зображення';
+$string['setcurrentselectedimagecontainertextcolour_help'] = 'Встановити колір тексту поточного обраного контейнера зображення у шістнадцятковому форматі RGB.';
+$string['setcurrentselectedsectioncolour'] = 'Встановити колір поточного вибраного розділу';
+$string['setcurrentselectedsectioncolour_help'] = 'Встановити поточний колір вибраного розділу в шістнадцятковому форматі RGB.';
+$string['setfitsectioncontainertowindow'] = 'Встановити спливаюче вікно розділу у вікно';
+$string['setfitsectioncontainertowindow_help'] = 'Якщо буде ввімкнено цей пункт, контекстне вікно зі вмістом розділу буде відповідати розміру вікна та за потреби прокручиватиметься всередину, якщо це необхідно. Якщо пункт буде вимкнено, натомість програма прокручуватиме всю сторінку.';
+$string['setimagecontaineralignment'] = 'Налаштування вирівнювання контейнера зображення';
+$string['setimagecontaineralignment_help'] = 'Встановіть ширину контейнера зображення в одне з значень: Ліворуч, По центру або Праворуч';
+$string['setimagecontainerbackgroundcolour'] = 'Встановити колір фону контейнера зображення';
+$string['setimagecontainerbackgroundcolour_help'] = 'Задати колір фону контейнера зображення у шістнадцятковому форматі RGB.';
+$string['setimagecontainerratio'] = 'Встановити співвідношення контейнера зображення відносно ширини';
+$string['setimagecontainerratio_help'] = 'Встановіть співвідношення контейнера зображення в одне з наступних значень: 3-2, 3-1, 3-3, 2-3, 1-3, 4-3 чи 3-4.';
+$string['setimagecontainerwidth'] = 'Встановити ширину контейнера зображення';
+$string['setimagecontainerwidth_help'] = 'Встановіть ширину контейнера зображення в одне зі значень: 128, 192, 210, 256, 320, 384, 448, 512, 576, 640, 704 чи 768';
+$string['setimageresizemethod'] = 'Встановлення способу зміни розміру зображення';
+$string['setimageresizemethod_help'] = 'Встановіть метод зміни розміру зображення: "Масштабувати" або "Обрізати" при зміні розміру зображення під контейнер.';
+$string['setnewactivity'] = 'Показати зображення повідомлення про нову активність';
+$string['setnewactivity_help'] = 'Показувати зображення повідомлення про нову активність при додаванні нової активності або ресурсу в розділ.';
+$string['setsection0ownpagenogridonesection'] = 'Розділ 0 на окремій сторінці, коли поза сіткою, і на одній сторінці секції';
+$string['setsection0ownpagenogridonesection_help'] = 'Мати секцію 0 на окремій сторінці, коли він поза межами сітки, а параметр «Макет курсу» має значення «Одина секція на сторінку».';
+$string['setshowsectiontitlesummaryposition'] = 'Установіть назву заголовка секції під час наведення курсора';
+$string['setshowsectiontitlesummaryposition_help'] = 'Встановіть позицію назви заголовка секції під час наведення курсора на поле сітки на одне з: «зверху», «знизу», «ліворуч» або «праворуч».';
+$string['shadeboxcontent'] = 'Вміст тіньової коробки';
+$string['showfromothers'] = 'Показати секцію';
+$string['showsectiontitlesummary'] = 'Показувати назву заголовка секції при наведенні курсора';
+$string['showsectiontitlesummary_help'] = 'Показувати назву заголовка секції при наведенні курсора на поле сітки.';
+$string['top'] = 'Згори';
+$string['topic'] = 'Секція';
+$string['topic0'] = 'Загальний';
+$string['webp'] = 'WebP';

@@ -1,0 +1,1 @@
+s:248:"Coding error detected, it must be fixed by a programmer: page layout file [dirroot]/theme/boost/layout/columns2.php does not contain the main content placeholder, please include "&lt;?php echo $OUTPUT-&gt;main_content() ?&gt;" in theme layout file.";
